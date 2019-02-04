@@ -2,6 +2,9 @@
 # 1. Conditional Statements (if, elif, else)
 # 2. Loops (for, while)
 
+
+# 1. Conditional Statements (if, elif, else)
+
 min_driving_age = 16
 max_driving_age = 90
 min_voting_age = 18
@@ -23,7 +26,7 @@ if my_age >= min_driving_age:
 else:
     print('you cannot drink')
 
-print('=====================================1')
+print('---------------------------------------1')
 
 my_age = 25
 
@@ -34,7 +37,7 @@ if my_age >= min_voting_age:
 if my_age >= min_drinking_age:
     print('you can drink')
 
-print('=====================================2')
+print('---------------------------------------2')
 
 my_age = 91
 
@@ -47,11 +50,7 @@ if min_driving_age <= my_age | max_driving_age <= my_age:
             print('you can drink')
 
 
-print('=====================================3')
-
-
-
-
+print('---------------------------------------3')
 
 
 
